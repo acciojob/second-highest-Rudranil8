@@ -9,8 +9,15 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			//Write your code here
-			
+			let high=-infinity;
+			if(arr==null){
+				return -infinity;
+			}
+			for(let z=0; z<arr.length; z++){
+				if(high<arr[z]){
+					high==arr[z];
+				}
+			}
 		}
 
 		function Main() {
